@@ -123,7 +123,7 @@ export async function POST(req: Request) {
     status: activate ? 'active' : 'inactive',
     hotmart_purchase_id: purchaseId,
     // opcional: guardar últimos campos para debug
-    hotmart_event: event || null,
+    //hotmart_event: event || null,
     hotmart_status: status || null
   })
 
